@@ -1,0 +1,13 @@
+0  Limited Spellbook
+1  Improviser
+2  Menagerie
+3  Trollpath
+4  Sorcerer Ascetic
+5  Thrifty Wizard
+6  Wizard Warlords
+7  Humble Horde
+8  Giantslayer
+9  Danger Brigade
+10 Flamefest
+11 Wolfer
+12 Vampire Hunter
