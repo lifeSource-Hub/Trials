@@ -9,10 +9,10 @@ def new_game_redux(self):
     mutators = None
     trial_name = None
 
-    if GAME_MODE is not None:
+    if isinstance(GAME_MODE, int) and (0 <= GAME_MODE < len(Mutators.all_trials)):
         mutators = Mutators.all_trials[GAME_MODE].mutators
         trial_name = Mutators.all_trials[GAME_MODE].name
-        print(trial_name, mutators)
+        print("Starting", trial_name, "trial")
 
     old_new_game(self, mutators=mutators, trial_name=trial_name, seed=None)
 

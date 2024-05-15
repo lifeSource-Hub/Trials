@@ -1,18 +1,20 @@
-To set your game mode, open Trials.py with any text editor and change the value of the GAME_MODE (line 4) to the corresponding value in the list below. It is set to "None" by default.
+To set your game mode, open Trials.py with any text editor and change the value of GAME_MODE on line 4 to the corresponding value in the list below (don't put the parenthesis). For example, to play the Wolfer trial it will look like the line below.
+
+GAME_MODE = 11
 
 Disclaimer: Game modes 0, 1, and 11 should work, but I can't guarantee that any game mode other than normal will work as expected or will not crash.
 
-None    Normal Game
-0       Limited Spellbook (A random 85% of the spellbook is removed)
-1       Improviser (A random 85% of the spellbook is removed, A random 70% of the skillbook is removed)
-2       Menagerie (Each level has 6 extra random high level monsters)
-3       Trollpath (All levels contain 1 rifts, All enemy units have Troll Regeneration)
-4       Sorcerer Ascetic (Each spell has 50% max charges, Only Sorcery spells)
-5       Thrifty Wizard (A maximum of 1 of each consumable can be held at any one time, A random 90% of the spellbook is removed)
-6       Wizard Warlords (Each level beyond the first contains an extra enemy wizard, Levels contain 2x Monster Spawners)
-7       Humble Horde (Levels contain only 2 SP orbs, Only Conjuration spells)
-8       Giantslayer (All enemy units have 300% HP)
-9       Danger Brigade (All enemy units have Poison Aura buff, All enemy units have 2 extra SH)
-10      Flamefest (All enemy units have 200% HP, Only Fire spells)
-11      Wolfer (The only available spell is Wolf)
-12      Vampire Hunter (All enemy units have Respawn As Vampire Bat, Only Holy spells)
+"None"  Normal Game
+"0"     Limited Spellbook (A random 85% of the spellbook is removed)
+"1"     Improviser (A random 85% of the spellbook is removed, A random 70% of the skillbook is removed)
+"2"     Menagerie (Each level has 6 extra random high level monsters)
+"3"     Trollpath (All levels contain 1 rifts, All enemy units have Troll Regeneration)
+"4"     Sorcerer Ascetic (Each spell has 50% max charges, Only Sorcery spells)
+"5"     Thrifty Wizard (A maximum of 1 of each consumable can be held at any one time, A random 90% of the spellbook is removed)
+"6"     Wizard Warlords (Each level beyond the first contains an extra enemy wizard, Levels contain 2x Monster Spawners)
+"7"     Humble Horde (Levels contain only 2 SP orbs, Only Conjuration spells)
+"8"     Giantslayer (All enemy units have 300% HP)
+"9"     Danger Brigade (All enemy units have Poison Aura buff, All enemy units have 2 extra SH)
+"10"    Flamefest (All enemy units have 200% HP, Only Fire spells)
+"11"    Wolfer (The only available spell is Wolf)
+"12"    Vampire Hunter (All enemy units have Respawn As Vampire Bat, Only Holy spells)
